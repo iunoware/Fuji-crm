@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from 'react';
-import { supabase } from '@/lib/supabase';
+// import { supabase } from '@/lib/supabase';
 import { useAuth } from '@/context/AuthContext';
 import { Search, Bell, Download, Plus, Edit2, Trash2, X, CheckCircle, Clock, Check, Loader2, Users, Activity } from 'lucide-react';
 import Link from 'next/link';
